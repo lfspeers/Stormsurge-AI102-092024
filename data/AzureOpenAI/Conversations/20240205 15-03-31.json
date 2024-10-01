@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are an AI assistant that helps people learn about the Azure OpenAI Service. Your responses should be concise and to the point."
+    },
+    {
+        "role": "user",
+        "content": "When is the expected release for GPT-5?"
+    },
+    {
+        "role": "assistant",
+        "content": "As an AI assistant, I don't have access to future release plans or timelines. I recommend keeping an eye on official announcements from OpenAI for updates on the release of GPT-5."
+    }
+]

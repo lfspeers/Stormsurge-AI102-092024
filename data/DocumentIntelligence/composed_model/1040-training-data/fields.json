@@ -1,0 +1,632 @@
+{
+    "$schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/fields.json",
+    "fields": [
+        {
+            "fieldKey": "FirstName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "LastName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SSN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseFirstName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseLastName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseSSN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FilingStatusSingle",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FilingStatusMarriedJoint",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FilingStatusMFS",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FilingStatusHOH",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FilingStatsQW",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FilingStatusNames",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Address",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AptNo",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "City",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "State",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ZIP",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ForeignCountry",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ForeignProvince",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ForeignPostal",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PresidentialElectionCampaignYou",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PresidentialElectionCampaignSpouse",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FinancialInterestYes",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FinancialInterestNo",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "StandardDeductionSelf",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "StandardDeductionSpouse",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "StandardDeductionOther",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "BornBefore",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Blind",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseBornBefore",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseBlind",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Dependents",
+            "fieldType": "object",
+            "fieldFormat": "not-specified",
+            "itemType": null,
+            "fields": [
+                {
+                    "fieldKey": "First Dependent",
+                    "fieldType": "Dependents_object",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "Second Dependent",
+                    "fieldType": "Dependents_object",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "Third Dependent",
+                    "fieldType": "Dependents_object",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "Fourth Dependent",
+                    "fieldType": "Dependents_object",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                }
+            ],
+            "visualizationHint": "vertical"
+        },
+        {
+            "fieldKey": "OverFourDependents",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "WagesSalariesTips",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxExemptInterest",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxableInterest",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "QualifiedDividends",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "OrdinaryDividends",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "IRADistribution",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "IRADistributionTaxable",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PensionsAnnuities",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PensionsAnnuitiesTaxable",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SocialSecurityBenefits",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SocialSecurityBenefitsTaxable",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "CaptialGain",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ScheduleDNotRequired",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "OtherIncomeSchedule1",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TotalIncome",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AdjustmentIncomeSchedule1",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "CharitableContribution",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TotalIncomeAdjustments",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AdjustedGrossIncome",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "StandardDeduction",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "BusinessIncomeDeduction",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Line12+13",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TaxableIncome",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "8814Form",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "4972Form",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Tax",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Schedule2Line3",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "line16+17",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ChildTaxCredit",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Schedule3Line7",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Line19+20",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Line18-21",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "OtherTaxes",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TotalTax",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "IncomeTaxWithheldW2",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "IncomeTaxWithheld1099",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "IncomeTaxWithheldOther",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TotalWithheld",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "2020EstimatedTaxPayments",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "EarnedIncomeCredit",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AdditionalChildTaxCredit",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AmericanOpportunityCredit",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "RecoveryRebateCredit",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Schedule3Line13",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TotalOtherPaymentRefundableCredit",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "TotalPayments",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AmountOverpaid",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AmountRefund",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Form8888",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "RoutingNumber",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AccountNumber",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Checkings",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Savings",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AppliedToEstimatedTax",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AmountOwe",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "EstimatedTaxPenalty",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "DesigneeName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "DesigneePhoneNumber",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "DesigneePIN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AllowDiscussionYes",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "AllowDiscussionNo",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Date",
+            "fieldType": "date",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseSignatureDate",
+            "fieldType": "date",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Occupation",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseOccupation",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "IdentityProtectionPIN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SpouseIdentityProtectionPIN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PhoneNumber",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Email",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PreparerName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PreaprerSignatureDate",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PTIN",
+            "fieldType": "number",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "SelfEmployed",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FirmName",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FirmAddress",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "PreparerPhoneNumber",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "FirmEIN",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        }
+    ],
+    "definitions": {
+        "Dependents_object": {
+            "fieldKey": "Dependents_object",
+            "fieldType": "object",
+            "fieldFormat": "not-specified",
+            "itemType": null,
+            "fields": [
+                {
+                    "fieldKey": "Name",
+                    "fieldType": "string",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "SSN",
+                    "fieldType": "number",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "Relationship",
+                    "fieldType": "string",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "ChildTaxCredit",
+                    "fieldType": "selectionMark",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                },
+                {
+                    "fieldKey": "CreditForOtherDependents",
+                    "fieldType": "selectionMark",
+                    "fieldFormat": "not-specified",
+                    "itemType": null,
+                    "fields": null
+                }
+            ]
+        }
+    }
+}
